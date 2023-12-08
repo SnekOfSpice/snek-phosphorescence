@@ -167,7 +167,7 @@ region = Rect2( 0, 0, 104, 67 )
 
 [sub_resource type="SpriteFrames" id=29]
 animations = [ {
-"frames": [ null, SubResource( 53 ), null, SubResource( 53 ) ],
+"frames": [ SubResource( 53 ), null, SubResource( 53 ), null ],
 "loop": false,
 "name": "default",
 "speed": 8.0
@@ -244,7 +244,6 @@ position = Vector2( 0, -62 )
 self_modulate = Color( 1, 1, 1, 0.0666667 )
 position = Vector2( 0, 1 )
 frames = SubResource( 18 )
-frame = 4
 playing = true
 
 [node name="ObeliskLightning" parent="." instance=ExtResource( 5 )]
@@ -367,7 +366,6 @@ loop = true
 [node name="ActiveStatic" type="AnimatedSprite" parent="."]
 position = Vector2( 4, -30 )
 frames = SubResource( 27 )
-frame = 1
 playing = true
 
 [node name="ShootFlicker" type="AnimatedSprite" parent="ActiveStatic"]

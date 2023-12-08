@@ -25,19 +25,19 @@ func init(maxAmmo):
 	var img_dir = ovr_dir + "content/weapons/obelisk/img/"
 	
 	if maxAmmo > 25:
-		$Sprite.texture = load(img_dir + "phosphorescence_25.png")
+		$Sprite.texture = load(img_dir + "phosphorescence_ammo25.png")
 	elif maxAmmo >= 15:
-		$Sprite.texture = load(img_dir + "phosphorescence_15.png")
+		$Sprite.texture = load(img_dir + "phosphorescence_ammo15.png")
 	elif maxAmmo >= 9:
-		$Sprite.texture = load(img_dir + "phosphorescence_9.png")
+		$Sprite.texture = load(img_dir + "phosphorescence_ammo9.png")
 	elif maxAmmo >= 5:
-		$Sprite.texture = load(img_dir + "phosphorescence_5.png")
+		$Sprite.texture = load(img_dir + "phosphorescence_ammo5.png")
 	elif maxAmmo >= 3:
-		$Sprite.texture = load(img_dir + "phosphorescence_3.png")
+		$Sprite.texture = load(img_dir + "phosphorescence_ammo3.png")
 	elif maxAmmo >= 2:
-		$Sprite.texture = load(img_dir + "phosphorescence_2.png")
+		$Sprite.texture = load(img_dir + "phosphorescence_ammo2.png")
 	else:
-		$Sprite.texture = load(img_dir + "phosphorescence_1.png")
+		$Sprite.texture = load(img_dir + "phosphorescence_ammo1.png")
 	
 	Style.init(self)
 	visible = true

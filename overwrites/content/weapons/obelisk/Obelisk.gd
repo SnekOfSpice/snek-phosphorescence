@@ -1,5 +1,7 @@
 extends Node2D
 
+
+var showcaseMode: = false
 const SHOT = preload("res://mods-unpacked/Snek-Phosphorescence/overwrites/content/weapons/obelisk/ObeliskShot.tscn")
 const BEAM = preload("res://mods-unpacked/Snek-Phosphorescence/overwrites/content/weapons/obelisk/ObeliskBeam.tscn")
 # stats

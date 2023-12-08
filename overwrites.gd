@@ -4,6 +4,8 @@ const MOD_DOME_PATH := "res://mods-unpacked/Snek-Phosphorescence/overwrites/cont
 const GAME_DOME_PATH := "res://content/dome/"
 const MOD_ICON_PATH := "res://mods-unpacked/Snek-Phosphorescence/overwrites/content/icons/"
 const GAME_ICON_PATH := "res://content/icons/"
+const MOD_GADGET_PATH := "res://mods-unpacked/Snek-Phosphorescence/overwrites/content/gadgets/"
+const GAME_GADGET_PATH := "res://content/gadgets/"
 const MOD_PETS_PATH := "res://mods-unpacked/Snek-Phosphorescence/overwrites/content/pets/"
 const GAME_PETS_PATH := "res://content/pets/"
 
@@ -86,6 +88,13 @@ func _init():
 		var overwrite = load(a)
 		petPositions.append(overwrite)
 		overwrite.take_over_path(str(GAME_PETS_PATH, "pet", id, "/PositionsDomeobel1sk.tscn"))
+	
+	for i in range(1, 4):
+		var a = str(MOD_GADGET_PATH, "shield/batterie-obel1sk-load",i,".png")
+		var overwrite = load(a)
+		otherOverwrites.append(overwrite) # for some reason the overwrite needs to be appended to sth. don't ask me why
+		overwrite.take_over_path(str(GAME_GADGET_PATH, "shield/batterie-obel1sk-load",i,".png"))
+		
 	
 	var ow1 = load("res://mods-unpacked/Snek-Phosphorescence/overwrites/content/dome/domeobel1sk/Domeobel1sk.tscn")
 	otherOverwrites.append(ow1)

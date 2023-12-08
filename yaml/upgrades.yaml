@@ -72,6 +72,7 @@ domeobel1skResourceCounters:
 
 
 obel1sk:
+  type: weapon
   limit: [hostile, primaryweapon]
   propertyChanges:
     - obel1sk.chStyle = 0/h

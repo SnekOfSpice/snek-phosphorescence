@@ -80,7 +80,7 @@ func arc(jitter := false, bindToMonsters := false):
 	# populate sub arcs on the first pass, and just readjust them on subsequent arc calls instead of instancing new ones
 	if subArcs.size() == 0:
 		for i in range(1, mid_points):
-			var arc_scene = load("res://content/weapons/obelisk/ObeliskShockArc.tscn")
+			var arc_scene = load("res://mods-unpacked/Snek-Phosphorescence/overwrites/content/weapons/obelisk/ObeliskShockArc.tscn")
 			var arc = arc_scene.instance()
 			add_child(arc)
 			arc.subArc = false
