@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/phosphorescence_beam_sustain.mp3-f6c3c0e2468e7cb77e561068c2a6b274.mp3str"
+
+[deps]
+
+source_file="res://mods-unpacked/Snek-Phosphorescence/overwrites/content/sounds/obelisk/phosphorescence_beam_sustain.mp3"
+dest_files=[ "res://.import/phosphorescence_beam_sustain.mp3-f6c3c0e2468e7cb77e561068c2a6b274.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

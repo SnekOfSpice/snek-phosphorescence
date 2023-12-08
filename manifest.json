@@ -1,0 +1,17 @@
+{
+	"name": "Phosphorescence",
+	"namespace": "Snek",
+	"version_number": "1.0.1",
+	"description": "A prototype that was the first internal iteration on a crosshair-based dome that playtesters got to play in December 2022. This concept would later be explored and released with the Tesla Dome.",
+	"website_url": "https://github.com/SnekOfSpice/obel1sk",
+	"dependencies": [],
+	"extra": {
+		"godot": {
+			"incompatibilities": [],
+			"authors": ["Fio Leukert"],
+			"compatible_mod_loader_version": ["3.0.0"],
+			"compatible_game_version": ["3.1.1"],
+			"config_defaults": {}
+		}
+	}
+}

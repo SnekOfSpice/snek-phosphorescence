@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/phosphorescence_Head_GUNFACE.wav-a2d566d65d3f44419d05b60b00a39350.sample"
+
+[deps]
+
+source_file="res://mods-unpacked/Snek-Phosphorescence/overwrites/content/sounds/obelisk/phosphorescence_Head_GUNFACE.wav"
+dest_files=[ "res://.import/phosphorescence_Head_GUNFACE.wav-a2d566d65d3f44419d05b60b00a39350.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
