@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/batterie-obel1sk-load1.png-df2ee5d3a6981038b3f24fff991e75f5.stex"
+path="res://.import/phosphorescence_fluid_domeobel1sk.png-f09cd06b169b80122fbd17c9a52cb0b8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods-unpacked/Snek-Phosphorescence/overwrites/content/gadgets/shield/batterie-obel1sk-load1.png"
-dest_files=[ "res://.import/batterie-obel1sk-load1.png-df2ee5d3a6981038b3f24fff991e75f5.stex" ]
+source_file="res://mods-unpacked/Snek-Phosphorescence/overwrites/content/gadgets/repellent/domeobel1sk/phosphorescence_fluid_domeobel1sk.png"
+dest_files=[ "res://.import/phosphorescence_fluid_domeobel1sk.png-f09cd06b169b80122fbd17c9a52cb0b8.stex" ]
 
 [params]
 

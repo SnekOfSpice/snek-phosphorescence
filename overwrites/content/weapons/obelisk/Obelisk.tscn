@@ -244,6 +244,7 @@ position = Vector2( 0, -62 )
 self_modulate = Color( 1, 1, 1, 0.0666667 )
 position = Vector2( 0, 1 )
 frames = SubResource( 18 )
+frame = 6
 playing = true
 
 [node name="ObeliskLightning" parent="." instance=ExtResource( 5 )]
@@ -366,6 +367,7 @@ loop = true
 [node name="ActiveStatic" type="AnimatedSprite" parent="."]
 position = Vector2( 4, -30 )
 frames = SubResource( 27 )
+frame = 1
 playing = true
 
 [node name="ShootFlicker" type="AnimatedSprite" parent="ActiveStatic"]

@@ -171,6 +171,11 @@ func move(dir:Vector2, allowMove:bool = true):
 		$Reticle.move(Vector2.ZERO, 0.0)
 		return
 	
+	if Options.useMouseDomeGameplay:
+		#dir = $Reticle.get_local_mouse_position().normalized()
+		var dist_to_mouse = $Reticle.get_local_mouse_position().length()
+		dir = $Reticle.get_local_mouse_position() * dist_to_mouse
+		dir = dir.limit_length(1.0)
 	
 	var speed_mod = 1.0
 	

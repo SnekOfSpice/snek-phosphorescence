@@ -38,5 +38,3 @@ func _ready():
 	
 	if Level.domeId() == "domeobel1sk":
 		position.y -= 13
-	
-	._ready()

@@ -90,10 +90,10 @@ func _init():
 		overwrite.take_over_path(str(GAME_PETS_PATH, "pet", id, "/PositionsDomeobel1sk.tscn"))
 	
 	for i in range(1, 4):
-		var a = str(MOD_GADGET_PATH, "shield/batterie-obel1sk-load",i,".png")
+		var a = str(MOD_GADGET_PATH, "shield/phosphorescence_batterie-obel1sk-load",i,".png")
 		var overwrite = load(a)
 		otherOverwrites.append(overwrite) # for some reason the overwrite needs to be appended to sth. don't ask me why
-		overwrite.take_over_path(str(GAME_GADGET_PATH, "shield/batterie-obel1sk-load",i,".png"))
+		overwrite.take_over_path(str(GAME_GADGET_PATH, "shield/phosphorescence_batterie-obel1sk-load",i,".png"))
 		
 	
 	var ow1 = load("res://mods-unpacked/Snek-Phosphorescence/overwrites/content/dome/domeobel1sk/Domeobel1sk.tscn")

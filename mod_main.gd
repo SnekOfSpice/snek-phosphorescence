@@ -14,17 +14,15 @@ func _init(modLoader = ModLoader):
 	trans_dir = dir + "translations/"
 	
 	# Add extensions
-	ModLoaderMod.install_script_extension(ext_dir + "systems/options/KeyBindingsPanel.gd")
 	#ModLoaderMod.install_script_extension(ext_dir + "game/GameWorld.gd")
 	ModLoaderMod.install_script_extension(ext_dir + "stages/level/LevelStage.gd")
+	ModLoaderMod.install_script_extension(ext_dir + "content/gagdets/shield/ShieldBattery.gd")
 	ModLoaderMod.install_script_extension(ext_dir + "content/gagdets/repellent/Repellent.gd")
 	ModLoaderMod.install_script_extension(ext_dir + "content/gagdets/orchard/Orchard.gd")
 	ModLoaderMod.install_script_extension(ext_dir + "content/monster/Monster.gd")
 	ModLoaderMod.install_script_extension(ext_dir + "content/monster/scarab/Scarab.gd")
-	ModLoaderMod.install_script_extension(ext_dir + "content/gagdets/shield/ShieldBattery.gd")
-	#ModLoaderMod.install_script_extension(ext_dir + "/content/gagdets/orchard/Orchard.gd")
 	
-	
+	ModLoaderMod.install_script_extension(ext_dir + "systems/options/KeyBindingsPanel.gd")
 	ModLoaderMod.install_script_extension(ext_dir + "systems/options/Options.gd")
 	
 	ModLoaderMod.add_translation(trans_dir + "phosphorescence_text.en.translation")
