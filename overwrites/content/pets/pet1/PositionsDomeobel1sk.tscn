@@ -1,33 +1,42 @@
 [gd_scene format=2]
 
-[node name="PositionsDomeobel1sk" type="Node2D"]
+[node name="PetPositions" type="Node2D"]
 
-[node name="Position2D" type="Position2D" parent="."]
-position = Vector2( -18, 0 )
+[node name="Position1_1" type="Position2D" parent="."]
+position = Vector2( -17, -4 )
 
-[node name="Position2D2" type="Position2D" parent="."]
-position = Vector2( 11, -1 )
+[node name="Position1_2" type="Position2D" parent="."]
+position = Vector2( 17, -3 )
 
-[node name="Position2D3" type="Position2D" parent="."]
-position = Vector2( 30, 6 )
+[node name="Position1_3" type="Position2D" parent="."]
+position = Vector2( -6, -4 )
 
-[node name="Position2D4" type="Position2D" parent="."]
-position = Vector2( -48, 5 )
+[node name="Position1_4" type="Position2D" parent="."]
+position = Vector2( 7, -4 )
 
-[node name="Position2D5" type="Position2D" parent="."]
-position = Vector2( -33, -36 )
-
-[node name="Position2D6" type="Position2D" parent="."]
-position = Vector2( -27, -35 )
-
-[node name="Position2D7" type="Position2D" parent="."]
+[node name="Position2_1_left" type="Position2D" parent="."]
 position = Vector2( 21, -35 )
 
-[node name="Position2D8" type="Position2D" parent="."]
-position = Vector2( 26, -35 )
+[node name="Position2_2_right" type="Position2D" parent="."]
+position = Vector2( -23, -35 )
 
-[node name="Position2D9" type="Position2D" parent="."]
-position = Vector2( 33, -36 )
+[node name="Position2_3" type="Position2D" parent="."]
+position = Vector2( 3, -6 )
 
-[node name="Position2D10" type="Position2D" parent="."]
-position = Vector2( 29, -28 )
+[node name="Position2_4" type="Position2D" parent="."]
+position = Vector2( -11, -6 )
+
+[node name="Position3_1" type="Position2D" parent="."]
+position = Vector2( -4, -6 )
+
+[node name="Position3_2" type="Position2D" parent="."]
+position = Vector2( 16, -5 )
+
+[node name="Position4_1" type="Position2D" parent="."]
+position = Vector2( 12, -5 )
+
+[node name="Position4_2_right" type="Position2D" parent="."]
+position = Vector2( 25, 8 )
+
+[node name="Position4_3_left" type="Position2D" parent="."]
+position = Vector2( -29, 7 )

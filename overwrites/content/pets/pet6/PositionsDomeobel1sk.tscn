@@ -1,27 +1,72 @@
 [gd_scene format=2]
 
-[node name="PositionsDomeobel1sk" type="Node2D"]
+[node name="PetPositions" type="Node2D"]
 
-[node name="Position2D" type="Position2D" parent="."]
-position = Vector2( -26, 3 )
+[node name="Position1_1" type="Position2D" parent="."]
+position = Vector2( -10, -19 )
 
-[node name="Position2D2" type="Position2D" parent="."]
-position = Vector2( -16, -3 )
+[node name="Position1_2" type="Position2D" parent="."]
+position = Vector2( 1, -20 )
 
-[node name="Position2D3" type="Position2D" parent="."]
-position = Vector2( -3, -6 )
+[node name="Position1_3" type="Position2D" parent="."]
+position = Vector2( 15, -19 )
 
-[node name="Position2D4" type="Position2D" parent="."]
-position = Vector2( 12, -4 )
+[node name="Position1_4" type="Position2D" parent="."]
+position = Vector2( 26, -8 )
 
-[node name="Position2D5" type="Position2D" parent="."]
-position = Vector2( 20, -38 )
+[node name="Position1_5" type="Position2D" parent="."]
+position = Vector2( -30, -8 )
 
-[node name="Position2D6" type="Position2D" parent="."]
-position = Vector2( 46, 1 )
+[node name="Position2_1" type="Position2D" parent="."]
+position = Vector2( -11, -20 )
 
-[node name="Position2D7" type="Position2D" parent="."]
-position = Vector2( 43, 5 )
+[node name="Position2_2" type="Position2D" parent="."]
+position = Vector2( 0, -20 )
 
-[node name="Position2D8" type="Position2D" parent="."]
-position = Vector2( -20, -36 )
+[node name="Position2_3" type="Position2D" parent="."]
+position = Vector2( 10, -20 )
+
+[node name="Position2_4" type="Position2D" parent="."]
+position = Vector2( 27, -53 )
+
+[node name="Position3_1" type="Position2D" parent="."]
+position = Vector2( -5, -23 )
+
+[node name="Position3_2" type="Position2D" parent="."]
+position = Vector2( 9, -22 )
+
+[node name="Position4_1" type="Position2D" parent="."]
+position = Vector2( 27, -8 )
+
+[node name="Position4_2" type="Position2D" parent="."]
+position = Vector2( -27, -8 )
+
+[node name="Position4_3" type="Position2D" parent="."]
+position = Vector2( -15, -19 )
+
+[node name="Position4_4" type="Position2D" parent="."]
+position = Vector2( -3, -21 )
+
+[node name="Position4_5" type="Position2D" parent="."]
+position = Vector2( 14, -20 )
+
+[node name="Position4_6" type="Position2D" parent="."]
+position = Vector2( 31, -29 )
+
+[node name="Position4_7" type="Position2D" parent="."]
+position = Vector2( 24, -53 )
+
+[node name="Position4_8" type="Position2D" parent="."]
+position = Vector2( -27, -53 )
+
+[node name="Position5_1" type="Position2D" parent="."]
+position = Vector2( -27, -53 )
+
+[node name="Position5_2" type="Position2D" parent="."]
+position = Vector2( 25, -53 )
+
+[node name="Position5_3" type="Position2D" parent="."]
+position = Vector2( 5, -21 )
+
+[node name="Position5_4" type="Position2D" parent="."]
+position = Vector2( -7, -20 )

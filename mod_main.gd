@@ -21,6 +21,7 @@ func _init(modLoader = ModLoader):
 	ModLoaderMod.install_script_extension(ext_dir + "content/gagdets/orchard/Orchard.gd")
 	ModLoaderMod.install_script_extension(ext_dir + "content/monster/Monster.gd")
 	ModLoaderMod.install_script_extension(ext_dir + "content/monster/scarab/Scarab.gd")
+	ModLoaderMod.install_script_extension(ext_dir + "gui/buttons/Action.gd")
 	
 	ModLoaderMod.install_script_extension(ext_dir + "systems/options/KeyBindingsPanel.gd")
 	ModLoaderMod.install_script_extension(ext_dir + "systems/options/Options.gd")

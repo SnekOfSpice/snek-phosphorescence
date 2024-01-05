@@ -403,7 +403,7 @@ obel1skStoreDamage:
   propertyChanges:
     - obel1sk.storedDamageMax = 500
   predecessors: [obel1skSlowDamage]
-  obel1skDeathCandles:
+obel1skDeathCandles:
   cost: iron=5
   propertyChanges:
     - obel1sk.deathCandles = true/h

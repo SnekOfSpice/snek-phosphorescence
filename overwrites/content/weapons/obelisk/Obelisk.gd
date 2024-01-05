@@ -111,6 +111,15 @@ var killstreak_effects := []
 
 # other weapons use a cupola path but this doesn't need anything in its init func so we give it an underscore
 func init(_unusedCupolaPath):
+	InputMap.erase_action("domeobel1sk_fire")
+	InputMap.add_action("domeobel1sk_fire")
+	InputMap.erase_action("domeobel1sk_special")
+	InputMap.add_action("domeobel1sk_special")
+	for a in InputMap.get_action_list("dome3_fire"):
+		InputMap.action_add_event("domeobel1sk_fire", a)
+	for a in InputMap.get_action_list("dome3_special"):
+		InputMap.action_add_event("domeobel1sk_special", a)
+	
 	$Reticle.position = $ReticleSpawn.position
 	$Reticle.init()
 	$MarkCounter.init()
@@ -616,7 +625,7 @@ func _process(delta: float) -> void:
 	var hit_sth = true if $BeamTargetPointer.get_collider() != null else false
 	$Reticle.hoverOverride = hit_sth
 	#print(cur_restDamageMult)
-	if not is_reloading and ($Reticle.input == Vector2.ZERO or spreadDeactivated()) and is_active:
+	if not is_reloading and ($Reticle.input == Vector2.ZERO or spreadDeactivated() or (Options.useMouseDomeGameplay and $Reticle.position.distance_to(get_local_mouse_position()) < 0.2)) and is_active:
 		if Data.of("obel1sk.maxRestDamageMult") > 0.0 and cur_ammo > 0:
 			build_up_rest_damage_mult(delta)
 			cur_special_slow_coyote_time = 0.0

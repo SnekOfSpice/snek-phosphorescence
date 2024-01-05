@@ -44,4 +44,6 @@ func _ready():
 			$Overcharge.position = Vector2( - 1, - 12)
 			position += Vector2(-5, -13)
 	
+	._ready()
+	
 	

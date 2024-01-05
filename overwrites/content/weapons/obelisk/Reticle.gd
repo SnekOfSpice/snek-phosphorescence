@@ -174,7 +174,7 @@ func _physics_process(delta: float) -> void:
 	if hoveredMonsters.size() > 0 or cur_bridgeTime > 0.0:
 		motion *= Data.of("obel1sk.slowdownOverMonsters")
 	
-	position += motion
+	position = lerp(position, position + motion, 0.8)
 	var s = ((maxSpread() - minSpread()) * motion.length()) / Data.of("obel1sk.maxReticleSpeed") + minSpread()
 	
 	if Data.of("obel1sk.specialType") == 2 and special_slow:
@@ -203,6 +203,8 @@ func maxSpread():
 	return Data.of("obel1sk.maxReticleSpread") + Data.of("obel1sk.reticleSpreadAdd")
 
 func move(dir:Vector2, speed_mod: float):
+	if dir.length() < 0.1:
+		dir = Vector2.ZERO
 	input = dir
 	self.speed_mod = speed_mod
 

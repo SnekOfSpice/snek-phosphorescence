@@ -1,4 +1,4 @@
-[gd_scene load_steps=67 format=2]
+[gd_scene load_steps=66 format=2]
 
 [ext_resource path="res://mods-unpacked/Snek-Phosphorescence/overwrites/content/weapons/obelisk/Obelisk.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/Snek-Phosphorescence/overwrites/content/weapons/obelisk/phosphorescence_obelisk.png" type="Texture" id=2]
@@ -19,7 +19,6 @@
 [ext_resource path="res://mods-unpacked/Snek-Phosphorescence/overwrites/content/sounds/obelisk/phosphorescence_quick_fail.wav" type="AudioStream" id=17]
 [ext_resource path="res://mods-unpacked/Snek-Phosphorescence/overwrites/content/weapons/obelisk/AmmoDisplay.tscn" type="PackedScene" id=18]
 [ext_resource path="res://mods-unpacked/Snek-Phosphorescence/overwrites/content/sounds/obelisk/phosphorescence_pure_lil_4.wav" type="AudioStream" id=19]
-[ext_resource path="res://mods-unpacked/Snek-Phosphorescence/overwrites/content/weapons/obelisk/img/phosphorescence_allcolors.PNG" type="Texture" id=20]
 [ext_resource path="res://mods-unpacked/Snek-Phosphorescence/overwrites/content/weapons/obelisk/BonusDamageDisplay.tscn" type="PackedScene" id=21]
 [ext_resource path="res://mods-unpacked/Snek-Phosphorescence/overwrites/content/weapons/obelisk/MarkCounter.tscn" type="PackedScene" id=22]
 [ext_resource path="res://mods-unpacked/Snek-Phosphorescence/overwrites/content/sounds/obelisk/phosphorescence_detonate_marks.wav" type="AudioStream" id=23]
@@ -167,7 +166,7 @@ region = Rect2( 0, 0, 104, 67 )
 
 [sub_resource type="SpriteFrames" id=29]
 animations = [ {
-"frames": [ SubResource( 53 ), null, SubResource( 53 ), null ],
+"frames": [ null, SubResource( 53 ), null, SubResource( 53 ), null ],
 "loop": false,
 "name": "default",
 "speed": 8.0
@@ -197,11 +196,6 @@ position = Vector2( 49, -33 )
 
 [node name="MercilessTracker" parent="." instance=ExtResource( 12 )]
 position = Vector2( 38, -53 )
-
-[node name="Allcolors" type="Sprite" parent="."]
-visible = false
-position = Vector2( 126, -233 )
-texture = ExtResource( 20 )
 
 [node name="QuickReload" parent="." instance=ExtResource( 15 )]
 position = Vector2( -1, -39 )
@@ -244,7 +238,6 @@ position = Vector2( 0, -62 )
 self_modulate = Color( 1, 1, 1, 0.0666667 )
 position = Vector2( 0, 1 )
 frames = SubResource( 18 )
-frame = 6
 playing = true
 
 [node name="ObeliskLightning" parent="." instance=ExtResource( 5 )]
@@ -367,7 +360,7 @@ loop = true
 [node name="ActiveStatic" type="AnimatedSprite" parent="."]
 position = Vector2( 4, -30 )
 frames = SubResource( 27 )
-frame = 1
+frame = 4
 playing = true
 
 [node name="ShootFlicker" type="AnimatedSprite" parent="ActiveStatic"]

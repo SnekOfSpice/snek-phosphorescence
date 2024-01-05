@@ -1,33 +1,27 @@
 [gd_scene format=2]
 
-[node name="PositionsDomeobel1sk" type="Node2D"]
+[node name="PetPositions" type="Node2D"]
 
-[node name="Position2D" type="Position2D" parent="."]
-position = Vector2( -24, -17 )
+[node name="Position1_1_left" type="Position2D" parent="."]
+position = Vector2( -13, -5 )
 
-[node name="Position2D2" type="Position2D" parent="."]
-position = Vector2( -12, -28 )
+[node name="Position1_2_left" type="Position2D" parent="."]
+position = Vector2( -8, -11 )
 
-[node name="Position2D3" type="Position2D" parent="."]
-position = Vector2( 7, -33 )
+[node name="Position1_3_left" type="Position2D" parent="."]
+position = Vector2( -13, -21 )
 
-[node name="Position2D4" type="Position2D" parent="."]
-position = Vector2( -5, -33 )
+[node name="Position1_4_left" type="Position2D" parent="."]
+position = Vector2( -3, -24 )
 
-[node name="Position2D5" type="Position2D" parent="."]
-position = Vector2( 13, -24 )
+[node name="Position2_1_left" type="Position2D" parent="."]
+position = Vector2( -13, -25 )
 
-[node name="Position2D6" type="Position2D" parent="."]
-position = Vector2( 24, -17 )
+[node name="Position2_1_left2" type="Position2D" parent="."]
+position = Vector2( -9, -18 )
 
-[node name="Position2D7" type="Position2D" parent="."]
-position = Vector2( 21, -42 )
+[node name="Position2_1_left3" type="Position2D" parent="."]
+position = Vector2( -11, -10 )
 
-[node name="Position2D8" type="Position2D" parent="."]
-position = Vector2( -19, -45 )
-
-[node name="Position2D9" type="Position2D" parent="."]
-position = Vector2( -35, -3 )
-
-[node name="Position2D10" type="Position2D" parent="."]
-position = Vector2( -15, -5 )
+[node name="Position2_1_left4" type="Position2D" parent="."]
+position = Vector2( -6, -8 )

@@ -82,7 +82,7 @@ func _init():
 		iconTextures.append(overwrite)
 		overwrite.take_over_path(GAME_ICON_PATH+"domeobel1sk"+icon.trim_prefix("phosphorescence_"))
 	
-	for i in range(6):
+	for i in range(7):
 		var id = i + 1
 		var a = str(MOD_PETS_PATH, "pet", id, "/PositionsDomeobel1sk.tscn")
 		var overwrite = load(a)

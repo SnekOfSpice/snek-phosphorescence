@@ -1,30 +1,42 @@
 [gd_scene format=2]
 
-[node name="PositionsDomeobel1sk" type="Node2D"]
+[node name="PetPositions" type="Node2D"]
 
-[node name="Position2D" type="Position2D" parent="."]
-position = Vector2( -20, 2 )
+[node name="Position1_1" type="Position2D" parent="."]
+position = Vector2( -16, -7 )
 
-[node name="Position2D2" type="Position2D" parent="."]
-position = Vector2( -13, -2 )
+[node name="Position1_2" type="Position2D" parent="."]
+position = Vector2( -20, -17 )
 
-[node name="Position2D3" type="Position2D" parent="."]
-position = Vector2( -31, 3 )
+[node name="Position1_3" type="Position2D" parent="."]
+position = Vector2( -23, -24 )
 
-[node name="Position2D4" type="Position2D" parent="."]
-position = Vector2( -24, 6 )
+[node name="Position1_4" type="Position2D" parent="."]
+position = Vector2( -34, -2 )
 
-[node name="Position2D5" type="Position2D" parent="."]
-position = Vector2( 23, 5 )
+[node name="Position1_5" type="Position2D" parent="."]
+position = Vector2( -5, -8 )
 
-[node name="Position2D6" type="Position2D" parent="."]
-position = Vector2( 24, 1 )
+[node name="Position1_6" type="Position2D" parent="."]
+position = Vector2( 9, -14 )
 
-[node name="Position2D7" type="Position2D" parent="."]
-position = Vector2( 21, -7 )
+[node name="Position1_7" type="Position2D" parent="."]
+position = Vector2( -7, -17 )
 
-[node name="Position2D8" type="Position2D" parent="."]
-position = Vector2( 20, -36 )
+[node name="Position1_8" type="Position2D" parent="."]
+position = Vector2( 11, -25 )
 
-[node name="Position2D9" type="Position2D" parent="."]
-position = Vector2( -26, -35 )
+[node name="Position1_9" type="Position2D" parent="."]
+position = Vector2( -1, -25 )
+
+[node name="Position1_10" type="Position2D" parent="."]
+position = Vector2( 18, -26 )
+
+[node name="Position1_11" type="Position2D" parent="."]
+position = Vector2( 26, -19 )
+
+[node name="Position1_12" type="Position2D" parent="."]
+position = Vector2( 32, -18 )
+
+[node name="Position1_13" type="Position2D" parent="."]
+position = Vector2( 21, -3 )

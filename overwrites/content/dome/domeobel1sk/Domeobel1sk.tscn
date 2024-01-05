@@ -57,17 +57,17 @@ shader_param/noise_texture = SubResource( 4 )
 
 [sub_resource type="Curve2D" id=6]
 _data = {
-"points": PoolVector2Array( 1.19055, 21.1654, -1.19055, -21.1654, -54, 3, -2.36338, 9.19621, 2.36338, -9.19621, -43, -34, 0, 0, 0, 0, -27, -48 )
+"points": PoolVector2Array( 1.19055, 21.1654, -1.19055, -21.1654, -54, 3, -2.36338, 9.19621, 2.36338, -9.19621, -43, -35, 0, 0, 0, 0, -18, -36 )
 }
 
 [sub_resource type="Curve2D" id=7]
 _data = {
-"points": PoolVector2Array( -0.799577, 17.5566, 0.799577, -17.5566, 55, 5, 3.26395, 8.9723, -3.26395, -8.9723, 44, -34, 0, 0, 0, 0, 27, -48 )
+"points": PoolVector2Array( -0.799577, 17.5566, 0.799577, -17.5566, 55, 5, 3.26395, 8.9723, -3.26395, -8.9723, 43, -38, 0, 0, 0, 0, 17, -36 )
 }
 
 [sub_resource type="Curve2D" id=8]
 _data = {
-"points": PoolVector2Array( -14.6371, 9.75807, 14.6371, -9.75807, -42, -35, 0, 0, 0, 0, 0, -54, -17.2534, -11.3137, 17.2534, 11.3137, 41, -37 )
+"points": PoolVector2Array( -14.6371, 9.75807, 14.6371, -9.75807, -33, -45, 0, 0, 0, 0, 0, -72, -17.2534, -11.3137, 17.2534, 11.3137, 34, -43 )
 }
 
 [node name="Dome" instance=ExtResource( 1 )]
@@ -209,10 +209,10 @@ disabled = true
 visible = false
 
 [node name="Left" parent="PiercePoints" index="0"]
-position = Vector2( -29, -44 )
+position = Vector2( -21, -48 )
 
 [node name="Right" parent="PiercePoints" index="1"]
-position = Vector2( 27, -44 )
+position = Vector2( 17, -49 )
 
 [node name="LeftPoint1" parent="FrontAttackPoints" index="0"]
 position = Vector2( -33, -15 )
@@ -236,13 +236,13 @@ curve = SubResource( 8 )
 visible = true
 
 [node name="Position1" parent="ProjectileTargets" index="0"]
-position = Vector2( -49, -33 )
+position = Vector2( -39, -18 )
 
 [node name="Position2" parent="ProjectileTargets" index="1"]
-position = Vector2( -25, -47 )
+position = Vector2( -20, -45 )
 
 [node name="Position3" parent="ProjectileTargets" index="2"]
-position = Vector2( 24, -46 )
+position = Vector2( 20, -46 )
 
 [node name="Position4" parent="ProjectileTargets" index="3"]
-position = Vector2( 52, -28 )
+position = Vector2( 44, -18 )
